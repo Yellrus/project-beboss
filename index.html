@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <a class="index-logo" href="#">Главная-БИБОСС</a>
+    <div class="logo">
+        <a class="index-logo" href="index.html">БИБОСС</a>
+    </div>
     <div class="container">
         <header class="top-bg">
             <div class="top-title">
@@ -40,10 +42,10 @@
                 <div class="rules-link">
                     <h3>Правила размещения ссылки</h3>
                     <ul>
-                        <li><span class="bull">&bull;</span>Ссылка должна быть индексируемой (без тегов &#60;noindex&#62; и &#60;nofollow&#62;)</li>
-                        <li><span class="bull">&bull;</span>Ссылка должна быть читаемой, не скрытой от глаз посетителя сайта,</li>
-                        <li><span class="bull">&bull;</span>Ссылка должна быть размещена на странице сайта, посвящённой франчайзингу,</li>
-                        <li><span class="bull">&bull;</span>При размещении ссылок на другие порталы о франчайзинге – баллы обнуляются.</li>
+                        <li>Ссылка должна быть индексируемой (без тегов &#60;noindex&#62; и &#60;nofollow&#62;)</li>
+                        <li>Ссылка должна быть читаемой, не скрытой от глаз посетителя сайта,</li>
+                        <li>Ссылка должна быть размещена на странице сайта, посвящённой франчайзингу,</li>
+                        <li>При размещении ссылок на другие порталы о франчайзинге – баллы обнуляются.</li>
                     </ul>
                 </div>
 
@@ -58,7 +60,7 @@
             </section>
 
             <section class="form-yellow">
-                <form class="search-form" action="#" method="post">
+                <form class="search-form" action="" method="post">
                     <h2>Получить ссылку</h2>
                     <div class="form-name">
                         <label for="your-name">Ваше имя</label>
@@ -66,7 +68,7 @@
                     </div>
                     <div class="form-phone">
                         <label for="phone-number">Номер телефона</label>
-                        <input id="phone-number" type="text" name="phone" placeholder="Для начисления баллов и связи с Вами">
+                        <input id="phone-number" type="text" name="phoneNumber" placeholder="Для начисления баллов и связи с Вами">
                     </div>
                     <div class="form-franchise">
                         <label for="franchise-name">Название франшизы</label>
@@ -81,9 +83,13 @@
         </main>
     </div>
     <footer class="black">
-        <a href="http://www.beboss.ru/">beboss.ru</a>
+        <div class="footer-container">
+            <a class="footer-logo" href="http://www.beboss.ru/">beboss.ru</a>
+        </div>
     </footer>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/myscripts.js"></script>
 </body>
 
 </html>
