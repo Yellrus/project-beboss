@@ -1,260 +1,301 @@
 html, body {
-    width: 100%;
-    margin: 0;
-    color: #000000;
-    background: #f2f1f1 url(../img/body-bg.jpg);
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 24px;
+  width: 100%;
+  margin: 0;
+  color: #000000;
+  background: #f2f1f1 url(../img/body-bg.jpg);
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
 }
+
 .container {
-    width: 1003px;
-    margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 0 25px 10px rgba(221, 221, 221, 1);
-    border-radius: 5px;
+  width: 1003px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 25px 10px rgba(221, 221, 221, 1);
+  border-radius: 5px;
 }
+
 main {
-    margin: 0 102px 0 101px;
+  margin: 0 102px 0 101px;
 }
+
 ul {
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-    padding: 11px 0 32px 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 11px 0 32px 0;
 }
+
 h1, h3, p {
-    margin: 0;
+  margin: 0;
 }
+
 h1 {
-    color: #fff;
-    font-size: 30px;
-    line-height: 60px;
-    font-weight: 400;
-    box-sizing: border-box;
-    padding: 45px 6px 0 0;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 45px 6px 0 0;
 }
+
 .top-title h2 {
-    color: #fff;
-    margin: 0;
-    font-size: 50px;
-    box-sizing: border-box;
-    padding: 40px 0 0 0;
+  color: #fff;
+  margin: 0;
+  font-size: 50px;
+  box-sizing: border-box;
+  padding: 40px 0 0 0;
 }
 
 /* Логотипчик */
 
 .index-logo {
-    display: block;
-    background-image: url(../img/sprite-logo.png);
-    background-repeat: no-repeat;
-    width: 127px;
-    height: 22px;
-    background-position: -5px -5px;
+  display: block;
+  background-image: url(../img/sprite-logo.png);
+  background-repeat: no-repeat;
+  width: 127px;
+  height: 22px;
+  background-position: -5px -5px;
 }
+
 .logo {
-    font-size: 0;
-    width: 1003px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px 25px 20px 0;
+  font-size: 0;
+  width: 1003px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 25px 20px 0;
 }
+
 .macbook-link {
-    font-family: "Tahoma", sans-serif;
-    box-sizing: border-box;
-    padding: 207px 4px 0 0;
-    position: relative;
-    z-index: 2;
+  font-family: "Tahoma", sans-serif;
+  box-sizing: border-box;
+  padding: 207px 4px 0 0;
+  position: relative;
+  z-index: 2;
 }
+
 .franchise {
-    font-size: 16px;
-    line-height: 45px;
-    color: #5c37ef;
+  font-size: 16px;
+  line-height: 45px;
+  color: #5c37ef;
 }
+
 .top-bg {
-    background: #8b8e91 url(../img/bg-top.jpg) no-repeat;
-    background-size: 1003px auto;
-    height: auto;
-    border-radius: 5px 5px 0 0;
-    text-align: center;
-    position: relative;
+  background: #8b8e91 url(../img/bg-top.jpg) no-repeat;
+  background-size: 1003px auto;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  position: relative;
 }
+
 img {
-    position: absolute;
-    top: 54.8%;
-    right: 14%;
+  position: absolute;
+  top: 54.8%;
+  right: 14%;
 }
+
 .main-list {
-    margin: 253px 0 0 0;
+  margin: 253px 0 0 0;
 }
+
 .bull {
-    box-sizing: border-box;
-    padding-right: 5px;
+  box-sizing: border-box;
+  padding-right: 5px;
 }
+
 .gray {
-    color: #b5b5b5;
+  color: #b5b5b5;
 }
+
 .points-importance {
-    background: #f7f8fa;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 22px 0 29px 0;
+  background: #f7f8fa;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 22px 0 29px 0;
 }
+
 .points-importance h3 {
-    font-size: 16px;
-    line-height: 36px;
+  font-size: 16px;
+  line-height: 36px;
 }
+
 .points-importance p {
-    font-size: 24px;
-    line-height: 36px;
-    box-sizing: border-box;
-    padding: 0 6px 0 0;
+  font-size: 24px;
+  line-height: 36px;
+  box-sizing: border-box;
+  padding: 0 6px 0 0;
 }
+
 .information {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    box-sizing: border-box;
-    padding: 38px 0 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  padding: 38px 0 0 0;
 }
+
 .rules-link {
-    width: 389px;
+  width: 389px;
 }
+
 .rules-link h3, .value-link h3 {
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
 }
+
 .rules-link li {
-    box-sizing: border-box;
-    padding: 12px 0 0 11px;
+  box-sizing: border-box;
+  padding: 12px 0 0 11px;
 }
+
 .rules-link li:before {
-    content: "•";
-    position: absolute;
-    -webkit-transform: translate(-11px);
-    transform: translate(-11px);
+  content: "•";
+  position: absolute;
+  -webkit-transform: translate(-11px);
+  transform: translate(-11px);
 }
+
 .value-link {
-    width: 391px;
-    box-sizing: border-box;
-    padding: 0 0 0 20px;
+  width: 391px;
+  box-sizing: border-box;
+  padding: 0 0 0 20px;
 }
+
 .green-points {
-    display: block;
-    font-size: 40px;
-    line-height: 36px;
-    font-weight: bold;
-    color: #1ea01e;
-    box-sizing: border-box;
-    padding: 27px 0 16px 0;
+  display: block;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #1ea01e;
+  box-sizing: border-box;
+  padding: 27px 0 16px 0;
 }
 
 /*==============ФОРМА=============*/
 
 .form-yellow {
-    width: 100%;
-    background: #fff4b3;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  width: 100%;
+  background: #fff4b3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 .search-form h2 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 16px 3.5px 10px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 16px 3.5px 10px 0;
 }
+
 input[type="text"] {
-    width: 360px;
-    height: 40px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 32px;
-    box-sizing: border-box;
-    padding: 0 0 0 14px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 32px;
+  box-sizing: border-box;
+  padding: 0 0 0 14px;
 }
+
 .form-name, .form-franchise {
-    box-sizing: border-box;
-    padding: 0 0 15px 0;
+  box-sizing: border-box;
+  padding: 0 0 15px 0;
 }
+
 label {
-    font-size: 14px;
-    line-height: 32px;
+  font-size: 14px;
+  line-height: 32px;
 }
+
 .form-name label {
-    box-sizing: border-box;
-    padding: 0 93px 0 0;
+  box-sizing: border-box;
+  padding: 0 93px 0 0;
 }
+
 .form-phone label {
-    box-sizing: border-box;
-    padding: 0 46px 0 0;
+  box-sizing: border-box;
+  padding: 0 46px 0 0;
 }
+
 .form-franchise label {
-    box-sizing: border-box;
-    padding: 0 22px 0 0;
+  box-sizing: border-box;
+  padding: 0 22px 0 0;
 }
+
 .form-get-sub {
-    width: 160px;
-    margin: 0 0 21px 165px;
-    box-sizing: border-box;
-    padding: 8px 0 8px 0;
-    background: #b6d88a;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    outline: none;
-    cursor: pointer;
+  width: 160px;
+  margin: 0 0 21px 165px;
+  box-sizing: border-box;
+  padding: 8px 0 8px 0;
+  background: #b6d88a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
 }
+
 .form-get-sub:hover, .form-get-sub:active {
-    background: #0d972b;
+  background: #0d972b;
 }
 
 /* Блок - Это еще не все*/
 
 .more-points {
-    box-sizing: border-box;
-    padding: 26px 0 55px 0;
+  box-sizing: border-box;
+  padding: 26px 0 55px 0;
 }
 
 /*================footer=============*/
 
 .black {
-    width: 100%;
-    background: #000;
-    color: #fff;
+  width: 100%;
+  background: #000;
+  color: #fff;
 }
+
 .footer-logo {
-    display: block;
-    background-image: url(../img/sprite-logo.png);
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 22px;
-    background-position: -5px -37px;
+  display: block;
+  background-image: url(../img/sprite-logo.png);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  background-position: -5px -37px;
 }
+
 .footer-container {
-    font-size: 0;
-    width: 1003px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px 0 20px 20px;
+  font-size: 0;
+  width: 1003px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 0 20px 20px;
 }
+
+/*Js style*/
 #spnPhoneStatus {
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    line-height: 32px;
-    box-sizing: border-box;
-    padding: 5.5px 0 9.5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  box-sizing: border-box;
+  padding: 5.5px 0 9.5px 5px;
+}
+
+.notValid {
+  background: #eef0e5;
 }
