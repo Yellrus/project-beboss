@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>БИБОСС-заработай баллы</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -60,19 +61,21 @@
             </section>
 
             <section class="form-yellow">
-                <form class="search-form" action="" method="post">
+                <!--  Воспользовался учебным скриптом для action , для имитации отправки данных на сервер(для демо)-->
+                <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
                     <h2>Получить ссылку</h2>
                     <div class="form-name">
                         <label for="your-name">Ваше имя</label>
                         <input id="your-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
                     </div>
                     <div class="form-phone">
-                        <label for="phone-number">Номер телефона</label>
-                        <input id="phone-number" type="text" name="phoneNumber" placeholder="Для начисления баллов и связи с Вами">
+                        <label for="phoneNumber">Номер телефона</label>
+                        <input id="phoneNumber" type="text" name="phone-number" placeholder="Для начисления баллов и связи с Вами">
+                        <span id="spnPhoneStatus"></span>
                     </div>
                     <div class="form-franchise">
-                        <label for="franchise-name">Название франшизы</label>
-                        <input id="franchise-name" type="text" name="franchise" placeholder="Например, Subway">
+                        <label for="franchiseName">Название франшизы</label>
+                        <input id="franchiseName" type="text" name="franchise" placeholder="Например, Subway">
                     </div>
                     <input class="form-get-sub" type="submit" name="get-link" value="Получить ссылку">
                 </form>
@@ -88,8 +91,10 @@
         </div>
     </footer>
     <script src="js/jquery-2.2.3.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/myscripts.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/additional-methods.js"></script>
+    <script src="js/myscripts.min.js"></script>
 </body>
 
 </html>

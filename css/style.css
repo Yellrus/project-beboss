@@ -13,7 +13,6 @@ html, body {
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 0 25px 10px rgba(221, 221, 221, 1);
-    /*box-shadow: 0 0 5px 0 #c8c8c8;*/
     border-radius: 5px;
 }
 main {
@@ -42,6 +41,24 @@ h1 {
     font-size: 50px;
     box-sizing: border-box;
     padding: 40px 0 0 0;
+}
+
+/* Логотипчик */
+
+.index-logo {
+    display: block;
+    background-image: url(../img/sprite-logo.png);
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+.logo {
+    font-size: 0;
+    width: 1003px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px 25px 20px 0;
 }
 .macbook-link {
     font-family: "Tahoma", sans-serif;
@@ -95,6 +112,9 @@ img {
     padding: 0 6px 0 0;
 }
 .information {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
     padding: 38px 0 0 0;
@@ -114,6 +134,7 @@ img {
 .rules-link li:before {
     content: "•";
     position: absolute;
+    -webkit-transform: translate(-11px);
     transform: translate(-11px);
 }
 .value-link {
@@ -130,28 +151,19 @@ img {
     box-sizing: border-box;
     padding: 27px 0 16px 0;
 }
-.index-logo {
-    display: block;
-    background-image: url(../img/sprite-logo.png);
-    background-repeat: no-repeat;
-    width: 127px;
-    height: 22px;
-    background-position: -5px -5px;
-}
-.logo {
-    font-size: 0;
-    width: 1003px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px 25px 20px 0;
-}
 
 /*==============ФОРМА=============*/
 
 .form-yellow {
     width: 100%;
     background: #fff4b3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .search-form h2 {
@@ -163,19 +175,17 @@ img {
     box-sizing: border-box;
     padding: 16px 3.5px 10px 0;
 }
-.form-name {
-    border: none;
-}
 input[type="text"] {
     width: 360px;
+    height: 40px;
     border: 1px solid #cccccc;
     border-radius: 5px;
     font-size: 14px;
     line-height: 32px;
     box-sizing: border-box;
-    padding: 3px 0 3px 14px;
+    padding: 0 0 0 14px;
 }
-.form-name, .form-phone, .form-franchise {
+.form-name, .form-franchise {
     box-sizing: border-box;
     padding: 0 0 15px 0;
 }
@@ -239,4 +249,12 @@ label {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px 0 20px 20px;
+}
+#spnPhoneStatus {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+    box-sizing: border-box;
+    padding: 5.5px 0 9.5px 5px;
 }
